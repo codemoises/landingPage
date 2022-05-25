@@ -207,18 +207,21 @@
     
     <footer id="footer" class="footer">
         <p>
-         © 
-         <span id="year"></span>
+            ©
+            
+            <span id="year"></span>
+            
             <a
-             href="http://github.com/codemoises">codemoises
+                href="http://github.com/codemoises">codemoises
             </a>
         </p>
     </footer>
 
     <script>
         const year = document.getElementById('year');
-        const currentYear = new Date;
-        year.innerHTML = currentYear.getFullYear();
+        const presentYear = new Date;
+
+        year.innerHTML = presentYear.getFullYear();
     </script>
 </body>
 </html>
