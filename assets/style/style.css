@@ -96,6 +96,7 @@ p {
 
 .main-content {
     max-width: 120rem;
+    height: 9.4rem;
     margin: 0 auto;
     padding: 10rem var(--gap);
 }
