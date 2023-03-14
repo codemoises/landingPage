@@ -386,8 +386,17 @@ body .full-width {
 }
 
 @media (max-width: 800px) {
-    .intro-content, .grid {
+    .grid {
         grid-template-columns: 1fr;
+    }
+
+    .intro-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-img {
+        padding-bottom: 5rem;
     }
 
     .gallery-img {
@@ -458,4 +467,6 @@ body .full-width {
     .menu-spacing {
         display: none;
     }
+
+    
 }
