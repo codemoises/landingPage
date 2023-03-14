@@ -96,7 +96,6 @@ p {
 
 .main-content {
     max-width: 120rem;
-    height: 9.4rem;
     margin: 0 auto;
     padding: 10rem var(--gap);
 }
@@ -210,7 +209,7 @@ p {
 
 .grid-one-content {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: center;
     min-height: 100vh;
 }
